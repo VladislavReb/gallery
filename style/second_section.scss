@@ -1,0 +1,78 @@
+.second-section {
+  min-height: 490px;
+  background-color: $sec_main_bcg_color;
+}
+
+.ss-link {
+  padding-top: 44px;
+
+  & a {
+    display: flex;
+    gap: 13px;
+  }
+
+  & p {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    color: $text_main_color;
+
+    &:hover {
+      color: #D400B3;
+    }
+
+    &:hover + .ss-img {
+      transform: translateX(30px);
+      transition-duration: 1s;
+    }
+  }
+}
+
+.ss-img {
+  transition-duration: 1s;
+}
+
+.ss-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 163px 0;
+
+  &__par {
+    max-width: 448px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: $text_main_color;
+  }
+
+  &__stat {
+    display: flex;
+    gap: 60px;
+
+    &__item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+
+      & p {
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: $text_main_color;
+      }
+
+      & span {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: $text_main_color;
+      }
+    }
+  }
+}

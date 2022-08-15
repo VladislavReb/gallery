@@ -1,0 +1,52 @@
+.sixth-section {
+  background-color: #262627;
+
+  &__wrapper {
+    display: flex;
+    gap: 16px;
+    padding: 160px 0;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__main-img {
+    align-self: center;
+  }
+
+  &__second-img {
+    align-self: center;
+    margin-top: -45px;
+    padding-bottom: 19px;
+  }
+
+  &__par {
+    font-size: 32px;
+    line-height: 44px;
+    letter-spacing: 1px;
+    color: $text_main_color;
+    margin-bottom: 31px;
+  }
+
+  &__link {
+    width: 143px;
+    min-height: 40px;
+    background: #D400B3;
+    border: 2px solid #D400B3;
+    border-radius: 1px;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: $text_main_color;
+    padding-top: 5px;
+
+    &:hover {
+      color: #D400B3;
+      background: $text_main_color;
+    }
+  }
+}

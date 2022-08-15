@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+
+$main_bcg_color: #0e0e0d;
+$sec_main_bcg_color: #262627;
+$text_main_color: #FFFFFF;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Paytone One', 'sans-serif';
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.container-2 {
+  margin: 0 auto;
+  max-width: 1600px;
+  position: relative;
+}

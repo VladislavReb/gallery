@@ -1,0 +1,33 @@
+.third-section {
+  background-color: $sec_main_bcg_color;
+  padding-bottom: 150px;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+
+    &__part-1 {
+      display: flex;
+      gap: 45px;
+      transition-duration: 2s;
+
+      &:hover {
+        transform: translate(180px);
+        transition-duration: 2s;
+      }
+    }
+
+    &__part-2 {
+      display: flex;
+      gap: 45px;
+      justify-content: right;
+      transition-duration: 2s;
+
+      &:hover {
+        transform: translate(-180px);
+        transition-duration: 2s;
+      }
+    }
+  }
+}
